@@ -65,8 +65,15 @@ django-admin startproject month_challenge
 ```
 
 To Run locally 
+
+Switch to dev branch to get the complete running code
 ```
 cd month_challenge
+git checkout dev
+git pull origin dev
+```
+
+```
 python manage.py runserver
 ```
 
