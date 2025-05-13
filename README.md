@@ -2,6 +2,9 @@
 
 A beginner-friendly Django application that displays motivational or fun challenges for each month. The goal is to practice Django fundamentals including views, URL routing, and templates.
 
+https://github.com/user-attachments/assets/1e1755c8-d12e-4b65-8822-025db8e0fadf
+
+
 ---
 
 ## Table of Contents
