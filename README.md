@@ -69,3 +69,23 @@ To Run locally
 cd month_challenge
 python manage.py runserver
 ```
+
+For making the html code compatible with django (tags, filters, {{}}, {% %} ) 
+install django extension in vs code 
+django -- by Baptiste Darthenay
+
+Once we install django, we are no longer able to use the html features (like type h1 and clicking on tab should generate the html element)
+for making that work, lets add these settings. 
+settings.json file 
+"files.associations": {
+  "*.html": "django-html"
+},
+"emmet.includeLanguages": {
+  "django-html": "html"
+}
+
+How to open settings.json file 
+1. Press Cmd + Shift + P to open the Command Palette.
+2. Type "Preferences: Open Settings (JSON)" and press Enter.
+This opens the settings.json file where you can add custom configurations.
+
